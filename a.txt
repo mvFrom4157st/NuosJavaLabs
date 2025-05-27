@@ -1,0 +1,7 @@
+1;Ivanenko Ivan Ivanovich;2003-12-13;CCC;KN-107;4.5;бюджет
+2;Mihalenko Mihail Mihailovich;2002-06-21;AAA;KN-205;4.0;фіз.особа
+3;Antonov Anton Antonovich;2003-05-05;AAA;KN-105;3.8;бюджет
+4;Tomskiy Tom Tomovich;2001-09-30;BBB;KN-308;4.2;юр.особа
+5;Dimka Dmitriy Dmitrievich;2001-07-30;BBB;KN-308;3.9;фіз.особа
+6;Anton Sasha Pasha;2001-02-21;AAA;KN-305;4.1;фіз.особа
+7;Olegev Oleg Olegovich;2006-02-21;AAA;KN-106;4.6;фіз.особа
