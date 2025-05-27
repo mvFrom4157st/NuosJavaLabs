@@ -1,0 +1,6 @@
+1;Ivanenko Ivan Ivanovich;2003-12-13;CCC;KN-107;4.5
+2;Mihalenko Mihail Mihailovich;2002-06-21;AAA;KN-205;4.0
+3;Antonov Anton Antonovich;2003-05-05;AAA;KN-105;3.8
+4;Tomskiy Tom Tomovich;2001-09-30;BBB;KN-308;4.2
+5;Dimka Dmitriy Dmitrievich;2001-07-30;BBB;KN-308;3.9
+6;Oleg Oleg Oleg;2003-07-30;CCC;KN-208;4.9
