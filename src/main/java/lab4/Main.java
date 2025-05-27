@@ -8,10 +8,10 @@ public class Main {
         // Параметри
         double start = 0.0;
         double end = 3.0;
-        double step = 0.004;
+        double stepX = 0.004;
 
-        // Генерація даних
-        double[] arguments = tabulation.generateArguments(start, end, step);
+        // Генерація аргументів та значень
+        double[] arguments = tabulation.generateArguments(start, end, stepX);
         double[] values = tabulation.calculateValues(arguments);
 
         // Вивід усіх значень
@@ -25,13 +25,12 @@ public class Main {
         double sum = tabulation.sum(values);
         double average = tabulation.average(values);
 
-        // Вивід результатів
         System.out.println("Results:");
         System.out.println("> Number of tabulation points: " + arguments.length);
-        System.out.printf("> Minimum value: %.5f\n\t(x = %.5f, index: %d)%n", values[minIndex], arguments[minIndex], minIndex);
-        System.out.printf("> Maximum value: %.5f\n\t(x = %.5f, index: %d)%n", values[maxIndex], arguments[maxIndex], maxIndex);
-        System.out.printf("> Sum of function value array elements: %.5f%n", sum);
-        System.out.printf("> Average value: %.5f%n", average);
+        System.out.printf("> Minimum X value: %.4f\n  (X = %.4f , Index: %d)%n", values[minIndex], arguments[minIndex], minIndex);
+        System.out.printf("> Maximum X value: %.4f\n  (X = %.4f , Index: %d)%n", values[maxIndex], arguments[maxIndex], maxIndex);
+        System.out.printf("> Sum of function value array elements: %.4f%n", sum);
+        System.out.printf("> Average value: %.4f%n", average);
 
         // Вивід значень для тестових індексів
         int[] testIndixes = {175, 350, 750};
