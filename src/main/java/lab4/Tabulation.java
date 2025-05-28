@@ -3,12 +3,13 @@ package lab4;
 public class Tabulation {
     private final double a = -0.5;
     private final double b = 2.0;
+    private final double e = 0.0001;
 
     // 1. Обчислення функції
     public double calculateFunction(double x) {
-        if (x <= 0.7) {
+        if (x <= 0.7 + e) {
             return 1.0;
-        } else if (x > 0.7 && x <= 1.4) {
+        } else if (x > 0.7 + e && x <= 1.4 + e) {
             return a * x * x * Math.log(x);
         } else { // x > 1.4
             return Math.exp(a * x) * Math.cos(b * x);
