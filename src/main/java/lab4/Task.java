@@ -22,14 +22,14 @@ public class Task {
         return result.toString().trim();
     }
 
-    // Слова — лише літери, розділені будь-якими символами
+    // Слова розділені будь-якими символами
     public String replaceKthLetterInWordsUniversal(String text, int k, char ch) {
         StringBuilder result = new StringBuilder();
         Pattern pattern = Pattern.compile("\\p{L}+");
         Matcher matcher = pattern.matcher(text);
         int lastEnd = 0;
         while (matcher.find()) {
-            // Додаємо роздільники між словами
+            // Роздільник
             result.append(text, lastEnd, matcher.start());
             String word = matcher.group();
             if (word.length() >= k) {
@@ -41,7 +41,7 @@ public class Task {
             }
             lastEnd = matcher.end();
         }
-        // Додаємо залишок тексту після останнього слова
+
         result.append(text.substring(lastEnd));
         return result.toString();
     }
